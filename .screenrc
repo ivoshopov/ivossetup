@@ -1,3 +1,13 @@
 defscrollback 1000000
 ignorecase on
 maptimeout 5
+screen -t "window 0" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 1" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 2" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 3" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 4" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 5" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 6" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 7" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 8" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
+screen -t "window 9" bash -ic 'HISTFILE=~/.bash_history.${WINDOW} bash'
